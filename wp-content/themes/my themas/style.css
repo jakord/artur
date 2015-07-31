@@ -1,134 +1,85 @@
-body{	
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
+body{ 
    background: url('image/bg.png');
 }
 
+/***redistribution of styles bootstrap***/
 
-/*начало перераспределения стилей бутстрапа*/
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #e7e7e7;
-}
-.navbar {
-  position: relative;
+.site-navbar {
   min-height: 100px;
   margin-bottom: 0px;
-  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
 }
-.navbar {
-   border-radius: 4px 4px 0 0;
- }
-.navbar-nav {
-  float: left;
-  margin: 0;
-  }
-.navbar-nav > li > a {
+.site-navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  
   font-size: 16px;
   font-weight: bold;
 }  
- /*настройка логотипа */
-.navbar-brand {
+
+ 
+.site-brand {
   float: left;
   height: 50px;
   padding: 1px 1px;
   font-size: 18px;
   line-height: 20px;
   margin: 25px 0px 0px 21px;
-} 
- /* конец настроки логотипа*/ 
-/*настрока списка */
-dl {
-  margin-top: 7px;
-  margin-bottom: 20px;
-  margin-left: -7px;
 }
-.dl-horizontal dt {
-    float: left;
-    width: 64px;
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .dl-horizontal dd {
-    margin-left: 89px;
-  }
-}
-/*конец настроки сиска*/
-/*настрока кнокри*/
-.btn {
-  display: inline-block;
+
+ 
+.site-btn{ 
   padding: 7px 21px;
-  margin-bottom: 0;
   font-size: 18px;
   text-transform: uppercase;
-  font-weight: normal;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
 }
-/*конец настроки кнопки*/
-/*настройка меню*/
-.nav > li {
+/***setup menu***/
+
+.site-nav > li {
   position: relative;
   display: block;
-  margin: 28px -16px 0px 54px;
+  margin: 28px -16px 0 70px;
 }
-.nav > li > a {
+.site-nav > li > a {
   position: relative;
   display: block;
   padding: 10px 10px;
 }
-.nav > li > a:hover,
-.nav > li > a:focus {
+.site-nav > li > a:hover,
+.site-nav > li > a:focus {
   text-decoration: none;
   background-color: #eee;
 }
-.nav > li.disabled > a {
+.site-nav > li.disabled > a {
   color: #777;
 }
-.nav > li.disabled > a:hover,
-.nav > li.disabled > a:focus {
+.site-nav > li.disabled > a:hover,
+.site-nav > li.disabled > a:focus {
   color: #777;
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
 
 }
-/*конец настроки меню*/
-/*настрока табов начвало*/
-.nav-tabs {
+.site-nav-tabs {
   border-bottom: 1px solid #003d48;
 }
-.nav.nav-tabs > li {
-  position: relative;
-  display: block;
-  margin: 8px 0px 0px 0px;
-}
-.tab-content > .active {
-  display: block;
+
+.site-tab-content > .active {
   background-color: #003d48;
   color:#ffffff;
   padding: 30px 20px;
 }
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
+.site-nav-tabs > li.active > a,
+.site-nav-tabs > li.active > a:hover,
+.site-nav-tabs > li.active > a:focus {
   color: #f77462;
   cursor: default;
   background-color: #003d48;
@@ -136,33 +87,27 @@ dl {
   border-bottom-color: transparent;
 }
 
-/*конец настроки табов*/
+/*** end redistribution of styles bootstrap***/
 
-
-/*конец перераспределения стилей бутстрапа */
-
-
-
-
-/*начало основных стилей */
+/***the beginning of the main styles***/
 .wrapper{
     margin: 100px 0;
 }
 .baner{
   height: 400px;
-	background: url(image/bg-baner.png);
+  background: url(image/bg-baner.png);
+  padding-bottom:20px;
+  overflow: hidden; 
 }
-.baner>.col-sm-5{
-  padding-top: 52px
-}
-.baner-h3{ 
+
+.baner h3{ 
   margin: 84px 0 0 83px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 31px;
   font-weight: 400;
   color:#003d48;
 }
-.baner-h1{ 
+.baner h1{ 
   margin: 9px 0px 0px 84px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 43px;
@@ -170,14 +115,14 @@ dl {
   color:#003d48;
   text-transform: uppercase;
 }
-.baner-p{
+.baner p{
   margin: 23px 0px 0px 84px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color:#8b8b8b;
 }
-.baner-a{
+.baner span{
     margin: 31px 0px 0px 84px;
     font-family: "Source Sans Pro",sans-serif;
     font-size: 18px;
@@ -191,36 +136,38 @@ dl {
   padding-top: 53px;
   padding-bottom: 39px;
 }
-
-.dl-horizontal.rr{
-   margin-left:39px;
+.row1-article-right{
+  margin-left: 80px;
 }
-dd>h5{
+
+.row1-article-right h5{
   margin: 0;
   font-family: "Source Sans Pro",sans-serif;
   font-size: 18px;
   font-weight: 700;
   color:#ffffff;
 }
-dd>p{
+.row1-article-right p{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 15px;
   font-weight: 400;
   color:#ffffff;
 }
-dd>a{
-  margin: 35px 0 0 0;
+.row1-article-right a{
+  margin: 15px 5px 0 0;
   font-family: "Source Sans Pro",sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
   display: inline-block;
 }
+
+
 .row2{
   background: #fff;
   padding-top: 60px;
 }
-.tab-content span>a{
+.tab-content a{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -242,27 +189,29 @@ dd>a{
   display: block;
   margin-top: 20px;
 }
+
 .article{
   margin-bottom:60px; 
 }
-.col-sm-8>h5{
+
+.article h5{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 20px;
   font-weight: 700;
   color:#003d48;
 }
-.col-sm-8>p{
+.article p{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 15px;
   font-weight: 400;
   color:#8c9193;
 }
-.col-sm-8>a{
+.article a{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
-.tabs-h{
+.tab-header{
  color:#6dc5dd;
  margin: 0 0 0 0;
 }
@@ -273,23 +222,24 @@ dd>a{
   margin-bottom: -50px;
 }
 
-.row3>h3{
+.row3 h3{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 32px;
   font-weight: 700;
   color:#ffffff;
 }
-.row3>p{
+.row3 p{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 18px;
   font-weight: 400;
   color:#ffffff;
 }
+
 .row4{
   background: #ffffff;
-  
+  padding-bottom: 5px;
 }
-.row4>h2{
+.row4 h2{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -297,84 +247,106 @@ dd>a{
   margin-top: 50px;
   margin-bottom: 35px;
 }
-.row4>h3{
+.row4 h3{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 22px;
   font-weight: 400;
   color:#6dc5dd;
   margin-bottom: 54px;
 }
-.arti{
+.row4-left-article-bottom{
   margin-bottom: 40px;
 }
-.col-sm-12.prefooter{
-    background: #6dc5dd;
-    padding-bottom: 70px;
-    border-bottom: 1px solid #ffffff;
-    padding-top: 16px;
-    margin: 0px;
-}
-.col-sm-12.f_oter{
-  background: #6dc5dd;
-  padding:47px 0 50px 15px;
-  border-bottom: 1px solid #ffffff;  
-}
-.col-sm-10>h5{
+
+.row4-left-article h5{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 16px;
   font-weight: 700;
   color:#003d48;
   margin-top: 0;
   margin-bottom: 2px;
-  margin-left: 50px;
+  margin-left: 33px;
 }
-.col-sm-10>span{
+.row4-left-article span{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 15px;
   font-weight: 400;
   color:#f77462;
   margin-top: 0;
   margin-bottom: 4px;
-  margin-left: 50px;
+  margin-left: 33px;
   display: block;
 }
-.col-sm-10>p{
+.row4-left-article p{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 15px;
   font-weight: 400;
   color:#787878;
-  margin-left: 50px;
+  margin-left: 33px;
   
 }
-.col-sm-9{
+.row4-right-article{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 15px;
   font-weight: 400;
   color:#787878; 
 }
-.col-sm-9>span{
+.row4-right-article span{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 16px;
   font-weight: 700;
   color:#f77462; 
 }
-.artic{
+.article-bottom{
   padding: 20px 0;
   margin-bottom:40px; 
   background: #ececec;
 }
-.artic1{
-  padding: 20px 0;
-  margin-bottom:0px; 
-  background: #ececec;
+
+.footer-up{
+  background: #6dc5dd;
+  padding-top: 10px;
+  padding-bottom:61px;
+  border-bottom: 1px solid #ffffff;  
 }
-.footer{
-  margin-top: -62px;
-}
-.foter span:last-child{
-  margin-right: 20px;
-}
-.righ {
- padding-bottom:40px;
+.footer-down{
+  background: #6dc5dd;
+  padding:47px 0 50px 15px;
+  border-bottom: 1px solid #ffffff;  
 }
 
+
+
+
+@media screen and (max-width: 500px) {
+  .baner h3{ 
+  margin: 84px 0 0 83px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color:#003d48;
+}
+
+.baner h1{ 
+  margin: 9px 0px 0px 84px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color:#003d48;
+  text-transform: uppercase;
+}
+.baner p{
+  margin: 23px 0px 0px 84px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color:#8b8b8b;
+}
+
+.site-btn{ 
+  padding: 7px 21px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+}
