@@ -34,7 +34,7 @@
                   <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
                 <div class="col-sm-12">
-                  <a class="navbar-brand site-brand" href="#"><img class="img-responsive" src="image/logo.png" alt="logotype"> </a>
+                  <a class="navbar-brand site-brand" href="#"><img class="img-responsive" src="<?php bloginfo('template_url') ?>/image/logo.png" alt="logotype"> </a>
                 </div>  
               </div>  
 
