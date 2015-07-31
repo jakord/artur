@@ -87,15 +87,15 @@
       </div>
       </div>
    
-
-       <div class="row col-md-12">
+       <div class="row">
+       <div class=" col-md-12 row4">
                 <div class="row col-md-6">
                       <div class="col-sm-12 row row4-left-article-bottom">
                        <div class="col-sm-2 col-xs-2 row"><img src="<?php bloginfo('template_url') ?>/image/kl1.png" alt="kalendar"></div>
                        <div class="col-sm-10 col-xs-10 row4-left-article"><h5 >Gravida Ultrice</h5><span>14 Comments</span> <p>Suspendisse ac urna. Etiam pellentesque mauris ut lectus nunc tellus ante, mattis eget, gravida vitae, ultricies atinvio</p></div></div>
                        <div class="col-sm-12 row row4-left-article-bottom">
                        <div class="col-sm-2  col-xs-2 row">
-                       <img src="image/kl1.png" alt="kalendar"></div>
+                       <img src="<?php bloginfo('template_url') ?>/image/kl1.png" alt="kalendar"></div>
                        <div class="col-sm-10 col-xs-10 row4-left-article"><h5>Gravida Ultrice</h5><span>14 Comments</span> <p>Suspendisse ac urna. Etiam pellentesque mauris ut lectus nunc tellus ante, mattis eget, gravida vitae, ultricies atinvio</p></div></div>
                        <div class="col-sm-12 row row4-left-article-bottom">
                        <div class="col-sm-2 col-xs-2 row"><img src="<?php bloginfo('template_url') ?>/image/kl1.png" alt="kalendar"></div>
@@ -120,7 +120,7 @@
              </div>
 
              </div>
+             </div>
              
-         </div>
-         </div>   
+          
  <?php get_footer();?>
