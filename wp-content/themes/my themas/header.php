@@ -7,7 +7,7 @@
 
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>SiteName</title>
+    <title><?php bloginfo('name');?></title>
 
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
