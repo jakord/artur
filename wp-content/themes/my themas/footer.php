@@ -1,5 +1,6 @@
      
      <footer>
+          <!-- переделать -->
        <div class="row">
         <div class=" col-sm-12 footer-up">
            <div class=" col-md-2 col-sm-4"><h3>Vitae lin</h3><p>Phasellus ultricesSed adipiscing lipsumNulla sed leoniton</p></div>
