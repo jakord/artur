@@ -57,6 +57,7 @@
 
               <div class="row">
               <div class=" col-md-12 baner">
+                <!-- не бывает так, ров это родитель для колонок -->
                     <div class="row col-md-7 row col-sm-12 pull-right">
                       <h3 >Lorem ipsum dolor sit amet</h3><h1 >Donec nec justo eget</h1><p >Morbi in sem quis dui placerat ornare. Pellentesque odioeuismod in, pharetra a, ultricies in, diam.</p><span> <button type="button" class="btn site-btn btn-lg btn-danger">More Info</button> </span>
                     </div>
