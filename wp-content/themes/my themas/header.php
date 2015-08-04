@@ -27,6 +27,7 @@
        <div class="container">
 
          <header>
+           <!-- или navbar или row выбирай один класс не лепи миллион классов, тем более которые имеют похожий смысл -->
           <nav class="row navbar  site-navbar navbar-default">
               <div class="col-md-12 col-lg-4">
                <div class="navbar-header">
