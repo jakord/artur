@@ -19,7 +19,5 @@ add_action('wp_enqueue_scripts', 'load_style_script');
 /**
 * регистрируем меню
 **/
-register_nav_menus(array(
-	'header_menu' => 'Меню в шапке',
-));
+	
 ?>
