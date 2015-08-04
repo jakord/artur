@@ -27,32 +27,37 @@
          <div class="row">
                <nav class=" navbar  site-navbar navbar-default">
         
-                    <div class="row">
-                       <div class="col-lg-12">
-                          <div class="row">
-                                    <div class="col-lg-4">
-                                      <div class="navbar-header">
-                                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                                      </button>
-                                      <a class="navbar-brand site-brand" href="#"><img class="img-responsive" src="<?php bloginfo('template_url') ?>/image/logo.png" alt="logotype"> </a>
-                                      </div>
-                                    </div>
-                                                               
-                                  <div class=" col-lg-7 col-lg-offset-1  col-md-10 col-sm-12 ">
-                                     <div class="collapse navbar-collapse" id="navbar-collapse">
-                                       <ul class="nav site-nav navbar-nav site-navbar-nav ">
-                                             <li><a href="#">Home</a></li>
-                                             <li><a href="#">About</a></li>
-                                             <li><a href="#">Services</a></li>
-                                             <li><a href="#">Portfolio</a></li>
-                                             <li><a href="#">Contact</a></li> 
-                                       </ul>
-                                    </div>
-                                  </div>
-                          </div>                       
-                      </div>  
-                 </div>
+                 
+                     <div class="col-lg-12">
+                      <div class="row">
+                                <div class="col-lg-4">
+                                  <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                              </button>
+                                <a class="navbar-brand site-brand" href="#"><img class="img-responsive" src="<?php bloginfo('template_url') ?>/image/logo.png" alt="logotype"> </a>
+                              </div>
+                          </div>
+                              
+                          
+                          <div class=" col-lg-7 col-lg-offset-1  col-md-10 col-sm-12 ">
+                          <div class="collapse navbar-collapse" id="navbar-collapse">
+                               <ul class="nav site-nav navbar-nav site-navbar-nav ">
+                                     <li><a href="#">Home</a></li>
+                                     <li><a href="#">About</a></li>
+                                     <li><a href="#">Services</a></li>
+                                     <li><a href="#">Portfolio</a></li>
+                                     <li><a href="#">Contact</a></li> 
+                               </ul>
+                            </div>
+                            </div>
+                  
+                    </div>
+
+                    
+                     
+                  </div>  
+              
                 
                </nav>
 
@@ -60,17 +65,21 @@
           
         
 
-        <div class="row">
-            <div class=" baner"> 
-                <div class="row col-md-7   pull-right">
-                 <h3 >Lorem ipsum dolor sit amet</h3><h1 >Donec nec justo eget</h1><p >Morbi in sem quis dui placerat ornare. Pellentesque odioeuismod in, pharetra a, ultricies in, diam.</p><span> <button type="button" class="btn site-btn btn-lg btn-danger">More Info</button> </span>
+              <div class="row">
+                <div class=" baner"> 
+                      <div class="row col-md-7   pull-right">
+                        <h3 >Lorem ipsum dolor sit amet</h3><h1 >Donec nec justo eget</h1><p >Morbi in sem quis dui placerat ornare. Pellentesque odioeuismod in, pharetra a, ultricies in, diam.</p><span> <button type="button" class="btn site-btn btn-lg btn-danger">More Info</button> </span>
+                      </div>
+                 </div> 
                 </div>
-            </div> 
-        </div>
-        
 
-      </header> 
+            </header> 
 
+
+
+
+
+      
 
 
 
