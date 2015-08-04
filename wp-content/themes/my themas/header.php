@@ -33,6 +33,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                   <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
+                <!-- еще раз не бывает с бухты барахты появившихся колонок, они должны быть в классе row --> 
                 <div class="col-sm-12">
                   <a class="navbar-brand site-brand" href="#"><img class="img-responsive" src="<?php bloginfo('template_url') ?>/image/logo.png" alt="logotype"> </a>
                 </div>  
