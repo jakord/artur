@@ -25,6 +25,7 @@
          <header>
 
          <div class="row">
+           <!-- наоборот сперва колонка а потом что в ней находится и опять же зачем эти 2 строки? -->
                <nav class=" navbar  site-navbar navbar-default">
         
                  
@@ -64,7 +65,7 @@
          </div>
           
         
-
+<!-- у тебя роу в котором роу бесмыслица -->
               <div class="row">
                 <div class=" baner"> 
                       <div class="row col-md-7   pull-right">
