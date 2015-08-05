@@ -1,5 +1,5 @@
       <footer>
-
+<!-- зачем тебе эти 2 строки, они ничего вообще не делают -->
          <div class="row">
           <div class="col-sm-12">
             <div class="row footer-up">
@@ -14,7 +14,7 @@
         </div>  
 
 
-
+<!-- зачем тебе эти 2 строки, они ничего вообще не делают -->
         <div class="row">
           <div class="col-sm-12  footer-down">
             <div class="row">
