@@ -44,7 +44,7 @@
                   </ul>
               </div>
           </nav>
-
+<!-- уже который раз тебе говорю не делать так -->
               <div class="row">
                 <div class=" baner"> 
                       <div class="row col-md-7   pull-right">
