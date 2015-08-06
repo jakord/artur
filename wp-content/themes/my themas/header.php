@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  
     <title><?php bloginfo('name');?></title>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,48 +22,28 @@
     <div class="wrapper">
        <div class="container">
 
-         <header>
+        <header>
+          <nav class="navbar  navbar-default nav-settings ">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand  site-brand" href="#"><img class="img-responsive" src="<?php bloginfo('template_url')?>/image/logo.png" alt="logotype"> </a>
+              </div>  
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav site-nav navbar-nav site-navbar-nav navbar-right">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Contact</a></li>
 
-         <div class="row">
-               <nav class=" navbar  site-navbar navbar-default">
-        
-                 
-                     <div class="col-lg-12">
-                      <div class="row">
-                                <div class="col-lg-4">
-                                  <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                              </button>
-                                <a class="navbar-brand site-brand" href="#"><img class="img-responsive" src="<?php bloginfo('template_url') ?>/image/logo.png" alt="logotype"> </a>
-                              </div>
-                          </div>
-                              
-                          
-                          <div class=" col-lg-7 col-lg-offset-1  col-md-10 col-sm-12 ">
-                          <div class="collapse navbar-collapse" id="navbar-collapse">
-                               <ul class="nav site-nav navbar-nav site-navbar-nav ">
-                                     <li><a href="#">Home</a></li>
-                                     <li><a href="#">About</a></li>
-                                     <li><a href="#">Services</a></li>
-                                     <li><a href="#">Portfolio</a></li>
-                                     <li><a href="#">Contact</a></li> 
-                               </ul>
-                            </div>
-                            </div>
-                  
-                    </div>
-
-                    
-                     
-                  </div>  
-              
-                
-               </nav>
-
-         </div>
-          
-        
+                  </ul>
+              </div>
+          </nav>
 
               <div class="row">
                 <div class=" baner"> 
@@ -73,8 +53,7 @@
                  </div> 
                 </div>
 
-            </header> 
-
+      </header>
 
 
 
