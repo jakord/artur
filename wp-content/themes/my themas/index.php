@@ -29,8 +29,6 @@
 
             </div> 
 
-  
-
            <div class="row row2">
           <div class="col-sm-8">
            <div class="row article">
@@ -42,6 +40,7 @@
              </div>
 
              <div class="row article">
+               <!-- у тебя повторяеться размер блоков так зачем его писать дважды -->
              <div class="col-sm-4  col-xs-4"><img src="<?php bloginfo('template_url')?>/image/img2.png" alt="image" class="img-rounded img-responsive" > </div>
              <div class="col-sm-8 col-xs-8"><h5>Lorem ipsum dolor sit amet</h5>
              <p>sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu</p>
@@ -74,7 +73,7 @@
          </div>
      
 
-
+<!-- у тебя две такие строки то объеденные то разделены, выбери какой то один вариант и используй его -->
       <div class="row">
         <div class="text-center row3 ">
            <h3>Praesent Clacerat</h3>
