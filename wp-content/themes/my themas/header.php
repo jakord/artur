@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  
     <title><?php bloginfo('name');?></title>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,7 +19,6 @@
       
     <div class="wrapper">
        <div class="container">
-
         <header>
           <nav class="navbar  navbar-default nav-settings ">
               <div class="navbar-header">
@@ -46,12 +43,12 @@
           </nav>
 
               <div class="row">
-                <div class=" baner"> 
-                      <div class="row col-md-7   pull-right">
+                <div class="baner"> 
+                      <div class="col-md-7   pull-right">
                         <h3 >Lorem ipsum dolor sit amet</h3><h1 >Donec nec justo eget</h1><p >Morbi in sem quis dui placerat ornare. Pellentesque odioeuismod in, pharetra a, ultricies in, diam.</p><span> <button type="button" class="btn site-btn btn-lg btn-danger">More Info</button> </span>
                       </div>
                  </div> 
-                </div>
+              </div>
 
       </header>
 
