@@ -117,14 +117,14 @@ body{
 
 .baner h3{ 
   margin: 84px 0 0 83px;
-  font-family: 'Source Sans Pro', sans-serif;
+  
   font-size: 31px;
   font-weight: 400;
   color:#003d48;
 }
 .baner h1{ 
   margin: 9px 0px 0px 84px;
-  font-family: 'Source Sans Pro', sans-serif;
+  
   font-size: 43px;
   font-weight: 700;
   color:#003d48;
@@ -132,14 +132,14 @@ body{
 }
 .baner p{
   margin: 23px 0px 0px 84px;
-  font-family: 'Source Sans Pro', sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   color:#8b8b8b;
 }
 .baner span{
     margin: 31px 0px 0px 84px;
-    font-family: "Source Sans Pro",sans-serif;
+   
     font-size: 18px;
     font-weight: 400;
     color: #8B8B8B;
@@ -157,20 +157,20 @@ body{
 
 .row1-article-right h5{
   margin: 0;
-  font-family: "Source Sans Pro",sans-serif;
+ 
   font-size: 18px;
   font-weight: 700;
   color:#ffffff;
 }
 .row1-article-right p{
-  font-family: "Source Sans Pro",sans-serif;
+
   font-size: 15px;
   font-weight: 400;
   color:#ffffff;
 }
 .row1-article-right a{
   margin: 15px 5px 0 0;
-  font-family: "Source Sans Pro",sans-serif;
+  
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
@@ -183,7 +183,7 @@ body{
   padding-top: 60px;
 }
 .tab-content a{
-  font-family: "Source Sans Pro",sans-serif;
+ 
   font-size: 15px;
   font-weight: 400;
   color:#787878;
@@ -210,19 +210,19 @@ body{
 }
 
 .article h5{
-  font-family: "Source Sans Pro",sans-serif;
+ 
   font-size: 20px;
   font-weight: 700;
   color:#003d48;
 }
 .article p{
-  font-family: "Source Sans Pro",sans-serif;
+
   font-size: 15px;
   font-weight: 400;
   color:#8c9193;
 }
 .article a{
-  font-family: "Source Sans Pro",sans-serif;
+ 
   font-size: 18px;
   font-weight: 400;
 }
@@ -238,13 +238,13 @@ body{
 }
 
 .row3 h3{
-  font-family: "Source Sans Pro",sans-serif;
+
   font-size: 32px;
   font-weight: 700;
   color:#ffffff;
 }
 .row3 p{
-  font-family: "Source Sans Pro",sans-serif;
+
   font-size: 18px;
   font-weight: 400;
   color:#ffffff;
@@ -255,7 +255,7 @@ body{
   padding-bottom: 5px;
 }
 .row4 h2{
-  font-family: "Source Sans Pro",sans-serif;
+  
   font-size: 32px;
   font-weight: 700;
   color:#003d48;
@@ -263,7 +263,6 @@ body{
   margin-bottom: 35px;
 }
 .row4 h3{
-  font-family: "Source Sans Pro",sans-serif;
   font-size: 22px;
   font-weight: 400;
   color:#6dc5dd;
@@ -274,7 +273,7 @@ body{
 }
 
 .row4-left-article h5{
-  font-family: "Source Sans Pro",sans-serif;
+  
   font-size: 16px;
   font-weight: 700;
   color:#003d48;
@@ -283,7 +282,7 @@ body{
   margin-left: 33px;
 }
 .row4-left-article span{
-  font-family: "Source Sans Pro",sans-serif;
+ 
   font-size: 15px;
   font-weight: 400;
   color:#f77462;
@@ -293,7 +292,7 @@ body{
   display: block;
 }
 .row4-left-article p{
-  font-family: "Source Sans Pro",sans-serif;
+
   font-size: 15px;
   font-weight: 400;
   color:#787878;
@@ -301,13 +300,13 @@ body{
   
 }
 .row4-right-article{
-  font-family: "Source Sans Pro",sans-serif;
+ 
   font-size: 15px;
   font-weight: 400;
   color:#787878;
 }
 .row4-right-article span{
-  font-family: "Source Sans Pro",sans-serif;
+  
   font-size: 16px;
   font-weight: 700;
   color:#f77462; 
@@ -334,7 +333,7 @@ body{
 
   .baner h3{ 
   margin: 84px 0 0 83px;
-  font-family: 'Source Sans Pro', sans-serif;
+  
   font-size: 22px;
   font-weight: 400;
   color:#003d48;
@@ -342,7 +341,7 @@ body{
 
 .baner h1{ 
   margin: 9px 0px 0px 84px;
-  font-family: 'Source Sans Pro', sans-serif;
+ 
   font-size: 30px;
   font-weight: 700;
   color:#003d48;
@@ -350,7 +349,7 @@ body{
 }
 .baner p{
   margin: 23px 0px 0px 84px;
-  font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 14px;
   font-weight: 400;
   color:#8b8b8b;
