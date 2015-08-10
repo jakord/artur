@@ -1,25 +1,19 @@
- <footer>
-         <div class="row footer-up">
-               <div class=" col-md-2 col-sm-4"><h3>Vitae lin</h3><p>Phasellus ultricesSed adipiscing lipsumNulla sed leoniton</p></div>
-               <div class=" col-md-2 col-sm-4"><h3>Vitae lin</h3><p>Phasellus ultricesSed adipiscing lipsumNulla sed leoniton</p></div>
-               <div class=" col-md-2 col-sm-4"><h3>Vitae lin</h3><p>Phasellus ultricesSed adipiscing lipsumNulla sed leoniton</p></div>
-               <div class=" col-md-2 col-sm-4"><h3>Vitae lin</h3><p>Phasellus ultricesSed adipiscing lipsumNulla sed leoniton</p></div>
-               <div class=" col-md-2 col-sm-4"><h3>Vitae lin</h3><p>Phasellus ultricesSed adipiscing lipsumNulla sed leoniton</p></div>
-               <div class=" col-md-2 col-sm-4"><h3>Vitae lin</h3><p>Phasellus ultricesSed adipiscing lipsumNulla sed leoniton</p></div>
-         </div>
+<footer>
+    <div class="row footer-up">
+        <?php if(!dynamic_sidebar('footer')): ?>
+         <h3>Место для виджетов</h3>
+        <?php endif; ?>
+    </div>
+    <div class="row footer-down ">
+        <div class="col-sm-9"><span>Sitename. All rights Reserved. Designed By www.alltemplateneeds.com / Photos from : www.photorack.net</span></div>
+        <div class="col-sm-3"><span class="pull-right hidden-xs"><a href="https://www.facebook.com"><img src="<?php bloginfo('template_url')?>/image/fb.png" alt=""></a>&nbsp;<a href="https://twitter.com"><img src="<?php bloginfo('template_url')?>/image/twt.png" alt="#"></a></span></div>
+    </div>
+</footer>
+</div>
 
-         <div class="row footer-down ">
-             <div class="col-sm-9"><span>Sitename. All rights Reserved. Designed By www.alltemplateneeds.com / Photos from : www.photorack.net</span></div>
-             <div class="col-sm-3"><span class="pull-right hidden-xs"><a href=""><img src="image/fb.png" alt=""></a>&nbsp;<a href="#"><img src="image/twt.png" alt="#"></a></span></div>
-        </div> 
-     </footer>
-     
-     
-     </div>
-     <!-- end container -->
-      
-   </div> 
-      <!-- end wrapper -->
-    <?php wp_footer();?>
-  </body>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<?php wp_footer();?>
+</body>
 </html>
