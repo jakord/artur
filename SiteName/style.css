@@ -1,0 +1,368 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
+body{	
+   background: url('image/bg.png');
+}
+.container{
+    background: #ffffff;
+}
+
+
+/***redistribution of styles bootstrap***/
+.nav-settings{
+
+    min-height:80px;
+    margin-left: -15px;
+    margin-right:-15px;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    border-radius: 4px 4px 0 0;
+}
+
+.site-navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  
+  font-size: 16px;
+  font-weight: bold;
+}  
+
+ 
+.site-brand {
+
+  float: left;
+  height: 50px;
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 20px 0px 0px 20px;
+}
+
+ 
+.site-btn{ 
+  padding: 7px 21px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+/***setup menu***/
+
+.site-nav > li {
+  position: relative;
+  display: block;
+  margin: 20px 0 0 20px;
+}
+.site-nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 10px;
+}
+.site-nav > li > a:hover,
+.site-nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.site-nav > li.disabled > a {
+  color: #777;
+}
+.site-nav > li.disabled > a:hover,
+.site-nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+
+}
+/*.nav-menu ul {
+  float:right;
+}*/
+
+.site-nav-tabs {
+  border-bottom: 1px solid #003d48;
+}
+
+.site-tab-content > .active {
+  background-color: #003d48;
+  color:#ffffff;
+  padding: 30px 20px;
+}
+.site-nav-tabs > li.active > a,
+.site-nav-tabs > li.active > a:hover,
+.site-nav-tabs > li.active > a:focus {
+  color: #f77462;
+  cursor: default;
+  background-color: #003d48;
+  border: 1px solid #003d48;
+  border-bottom-color: transparent;
+}
+
+/*** end redistribution of styles bootstrap***/
+
+
+
+/***the beginning of the main styles***/
+.wrapper{
+    margin: 100px 0;
+}
+.baner{
+  height: 400px;
+	background: url(image/bg-baner.png);
+  padding-bottom:20px;
+  overflow: hidden; 
+}
+
+.baner h3{ 
+  margin: 84px 0 0 83px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  color:#003d48;
+}
+.baner h1{ 
+  margin: 9px 0px 0px 84px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  color:#003d48;
+  text-transform: uppercase;
+}
+.baner p{
+  margin: 23px 0px 0px 84px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color:#8b8b8b;
+}
+.baner span{
+    margin: 31px 0px 0px 84px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8B8B8B;
+    display: block;
+}
+
+.portfolio{
+  background: #6dc5dd;
+  padding-top: 53px;
+  padding-bottom: 39px;
+}
+.portfolio-article-right{
+  margin-left: 80px;
+}
+
+.row1-article-right h5{
+  margin: 0;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color:#ffffff;
+}
+.row1-article-right p{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color:#ffffff;
+}
+.row1-article-right a{
+  margin: 15px 5px 0 0;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  display: inline-block;
+}
+
+
+.row2{
+  background: #fff;
+  padding-top: 60px;
+}
+.tab-content a{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color:#787878;
+  margin-left:15px;
+  display: inline-block; 
+  border-bottom: 1px solid #787878
+}
+.tab-content span{
+  font-size: 15px;
+  color:#f77462;
+  display: block;
+  margin-bottom: 20px;
+
+}
+.tab-content span:first-child{
+  font-size: 15px;
+  color:#f77462;
+  display: block;
+  margin-top: 20px;
+}
+
+.article{
+  margin-bottom:60px; 
+}
+
+.article h5{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color:#003d48;
+}
+.article p{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color:#8c9193;
+}
+.article a{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.tab-header{
+ color:#6dc5dd;
+ margin: 0 0 0 0;
+}
+.row3{
+  background: #f77462;
+  height: 210px;
+  padding-top: 35px;
+  margin-bottom: -50px;
+}
+
+.row3 h3{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color:#ffffff;
+}
+.row3 p{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color:#ffffff;
+}
+
+.row4{
+  background: #ffffff;
+  padding-bottom: 5px;
+}
+.row4 h2{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color:#003d48;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.row4 h3{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color:#6dc5dd;
+  margin-bottom: 54px;
+}
+.row4-left-article-bottom{
+  margin-bottom: 40px;
+}
+
+.row4-left-article h5{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color:#003d48;
+  margin-top: 0;
+  margin-bottom: 2px;
+  margin-left: 33px;
+}
+.row4-left-article span{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color:#f77462;
+  margin-top: 0;
+  margin-bottom: 4px;
+  margin-left: 33px;
+  display: block;
+}
+.row4-left-article p{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color:#787878;
+  margin-left: 33px;
+  
+}
+.row4-right-article{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color:#787878;
+  /*padding-left: 30px;*/
+}
+.row4-right-article span{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color:#f77462; 
+}
+.article-bottom{
+  padding: 20px 0;
+  margin-bottom:40px;
+  background: #ececec;
+  margin-right: 0;
+}
+
+.footer-up{
+  background: #6dc5dd;
+  padding-top: 10px;
+  padding-bottom:61px;
+  border-bottom: 1px solid #ffffff;  
+}
+.footer-down{
+    background: #6dc5dd;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 500px) {
+
+  .baner h3{ 
+  margin: 84px 0 0 83px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color:#003d48;
+}
+
+.baner h1{ 
+  margin: 9px 0px 0px 84px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color:#003d48;
+  text-transform: uppercase;
+}
+.baner p{
+  margin: 23px 0px 0px 84px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color:#8b8b8b;
+}
+
+.site-btn{ 
+  padding: 7px 21px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+}

@@ -23,6 +23,13 @@ function my_wp_nav_menu( $args = '' ){
 add_theme_support('post-thumbnails');
 
 register_sidebar(array(
+	'name' => 'header',
+	'id' => 'header',
+	'before_widget' => '',
+	'after_widget' => ''
+));
+
+register_sidebar(array(
 	'name' => 'footer',
 	'id' => 'footer',
 	'before_widget' => '',

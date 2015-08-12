@@ -1,7 +1,7 @@
 <footer>
     <div class="row footer-up">
         <?php if(!dynamic_sidebar('footer')): ?>
-         <h3>РњРµСЃС‚Рѕ РґР»СЏ РІРёРґР¶РµС‚РѕРІ</h3>
+         <h3>Место для виджетов</h3>
         <?php endif; ?>
     </div>
     <div class="row footer-down ">
@@ -12,6 +12,11 @@
 </div>
 
 </div>
+
 <?php wp_footer();?>
 </body>
 </html>
+
+
+
+

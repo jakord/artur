@@ -1,51 +1,49 @@
-<?php
-/**
- * The Header template for our theme
- *
- * Displays all of the <head> section and everything up till <div id="main">
- *
- * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
- */
-?><!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if !(IE 7) & !(IE 8)]><!-->
-<html <?php language_attributes(); ?>>
-<!--<![endif]-->
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width">
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<!--[if lt IE 9]>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-	<![endif]-->
-	<?php wp_head(); ?>
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body <?php body_class(); ?>>
-	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</a>
+    <title><?php bloginfo('name');?></title>
+               <!--[if lt IE 9]>
+               <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+               <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+               <![endif]-->
+           </head>
+           <body>
+           <?php wp_head();?>
+           <div class="wrapper">
 
-			<div id="navbar" class="navbar">
-				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
-					<?php get_search_form(); ?>
-				</nav><!-- #site-navigation -->
-			</div><!-- #navbar -->
-		</header><!-- #masthead -->
+               <div class="container">
+                   <header>
+                       <nav class="navbar  navbar-default nav-settings ">
+                           <div class="navbar-header">
+                               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                   <span class="sr-only">Toggle navigation</span>
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                               </button>
+                               <a class="navbar-brand  site-brand" href="<?php echo home_url();?>"><img class="img-responsive" src="<?php bloginfo('template_url')?>/image/logo.png" alt="logotype"> </a>
+                           </div>
+                           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-		<div id="main" class="site-main">
+                               <form class="navbar-form navbar-left" role="search">
+                               <div class="form-group">
+                               <input type="text" class="form-control" placeholder="Search" name="s">
+                               <input type="submit" name="s" value="search">
+                               </form>
+                               <?php wp_nav_menu( array(
+                               'theme_location'  => '', 'menu' => '', 'container' => '', 'container_class' => '', 'container_id' => '', 'menu_class' => '', 'menu_id' => '', 'echo' => true, 'fallback_cb' => 'wp_page_menu', 'before' => '', 'after' => '', 'items_wrap' => '<ul  class="nav site-nav navbar-nav site-navbar-nav navbar-right">%3$s</ul>',) ); ?>
+                           </div>
+                       </nav>
+
+                       <div class="row">
+                           <div class=" baner"><div class="row col-md-7   pull-right">
+                               <h3 >Lorem ipsum dolor sit amet</h3><h1 >Donec nec justo eget</h1><p >Morbi in sem quis dui placerat ornare. Pellentesque odioeuismod in, pharetra a, ultricies in, diam.</p><span> <button type="button" class="btn site-btn btn-lg btn-danger">More Info</button> </span>
+                               </div>
+                           </div>
+                       </div>
+                   </header>
