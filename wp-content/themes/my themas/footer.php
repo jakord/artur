@@ -1,12 +1,17 @@
 <footer>
     <div class="row footer-up">
-        <?php if(!dynamic_sidebar('footer')): ?>
-         <h3>Место для виджетов</h3>
-        <?php endif; ?>
+        <?php (dynamic_sidebar('footer'))?>
     </div>
     <div class="row footer-down ">
         <div class="col-sm-9"><span>Sitename. All rights Reserved. Designed By www.alltemplateneeds.com / Photos from : www.photorack.net</span></div>
-        <div class="col-sm-3"><span class="pull-right hidden-xs"><a href="https://www.facebook.com"><img src="<?php bloginfo('template_url')?>/image/fb.png" alt=""></a>&nbsp;<a href="https://twitter.com"><img src="<?php bloginfo('template_url')?>/image/twt.png" alt="#"></a></span></div>
+        <div class="col-sm-3">
+            <div class="pull-right hidden-xs">
+                <a href="https://www.facebook.com">
+                    <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x fa-inverse"></i><i class="fa fa-facebook fa-stack-1x fa-color"></i></span></a>&nbsp;
+                <a href="https://twitter.com">
+                    <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x fa-inverse"></i><i class="fa fa-twitter fa-stack-1x fa-color"></i></span></a>
+            </div>
+        </div>
     </div>
 </footer>
 </div>

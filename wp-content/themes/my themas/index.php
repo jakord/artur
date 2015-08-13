@@ -9,14 +9,15 @@ $portfolio=  new WP_Query(array('cat'=>$cat_id,'posts_per_page' =>3));
                 <div class=" col-sm-4">
                     <div class=" pull-left"><?php the_post_thumbnail(); ?></div>
                     <div class="portfolio-article-right">
-                        <a href="<?php the_permalink();?>" <h5 ><?php the_title();?></h5></a>
-                        <p ><?php the_excerpt()?></p>
+                        <a href="<?php the_permalink();?>"<h5><?php the_title();?></h5></a>
+                         <?php the_excerpt()?>
                         <a href="<?php the_permalink()?>" >read more &nbsp;<img src="<?php bloginfo('template_url') ?>/image/arrow.png" alt="arrow"></a>
                     </div>
                 </div>
         <?php endwhile; ?>
         </div>
             <?php else:?>
+            <p>В данной категории нету записей</p>
         <?php endif; ?>
 <div class="row row2">
 
@@ -27,15 +28,16 @@ $portfolio=  new WP_Query(array('cat'=>$cat_id,'posts_per_page' =>3));
     <div class="col-sm-8">
         <?php while ( $services->have_posts() ) : $services->the_post(); ?>
         <div class="row article">
-            <div class="col-sm-4 col-xs-4"><?php the_post_thumbnail(true,array('class' => "img-rounded img-responsive")); ?></div>
-            <div class="col-sm-8  col-xs-8 "><h5 class="header"><?php the_title();?></h5>
-                <p><?php the_excerpt()?></p>
+           <?php the_post_thumbnail(true,array('class' => "img-rounded img-responsive")); ?>
+            <div><h5 class="header"><?php the_title();?></h5>
+                <?php the_excerpt()?>
                 <a href="<?php the_permalink()?>"  class="btn btn-danger ">More Info</a>
             </div>
         </div>
         <?php endwhile; ?>
     </div>
     <?php else:?>
+        <p>В данной категории нету записей</p>
     <?php endif; ?>
 
     <div class="col-sm-4">
@@ -61,13 +63,14 @@ $portfolio=  new WP_Query(array('cat'=>$cat_id,'posts_per_page' =>3));
                 <?php endwhile; ?>
             </div>
         <?php else:?>
+            <p>В данной категории нету записей</p>
         <?php endif; ?>
     </div>
 </div>
 
 
-<div class="row">
-    <div class="text-center row3 ">
+<div class="row row3">
+    <div class="text-center  ">
         <h3>Praesent Clacerat</h3>
         <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreetlectus arcu pulvinar risus</p>
     </div>
@@ -82,17 +85,18 @@ $portfolio=  new WP_Query(array('cat'=>$cat_id,'posts_per_page' =>3));
         <div class="col-md-6">
             <?php while ( $blog->have_posts() ) : $blog->the_post(); ?>
                 <div class="row row4-left-article-bottom">
-                    <div class="col-sm-2 col-xs-2 "><?php the_post_thumbnail(true,array('class' => " img-responsive")); ?></div>
-                    <div class="col-sm-10 col-xs-10 row4-left-article">
-                        <a href="<?php the_permalink()?>"><h5 ><?php the_title()?></h5></a>
+                    <div><?php the_post_thumbnail(true,array('class' => " img-responsive")); ?></div>
+                    <div class="row4-left-article">
+                       <h5><?php the_title()?></h5>
                         <span><?php comments_number('no comment', '1 comment', '% comments'); ?></span>
-                        <p><?php the_excerpt()?></p>
+                        <?php the_excerpt()?>
                         <a href="<?php the_permalink()?>">read more &nbsp; <i class="glyphicon glyphicon-arrow-right"></i></a>
                     </div>
                 </div>
             <?php endwhile; ?>
         </div>
     <?php else:?>
+        <p>В данной категории нету записей</p>
     <?php endif; ?>
 
     <?php
@@ -104,11 +108,12 @@ $portfolio=  new WP_Query(array('cat'=>$cat_id,'posts_per_page' =>3));
                 <div class="row article-bottom ">
                     <div class="col-sm-9 col-xs-10 row4-right-article "><?php the_excerpt()?><br/>
                         <span>-<?php the_author()?></span>
-                    </div><div class="col-sm-3 col-xs-2"><?php the_post_thumbnail(true,array('class' => "img-rounded img-responsive")); ?></div>
+                    </div><div class="col-sm-3 col-xs-2"><a href="<?php the_permalink();?>" ><?php the_post_thumbnail(true,array('class' => "img-rounded img-responsive")); ?></a></div>
                 </div>
             <?php endwhile; ?>
         </div>
     <?php else:?>
+        <p>В данной категории нету записей</p>
     <?php endif; ?>
 </div>
  <?php get_footer();?>
